@@ -1,13 +1,20 @@
 import React from 'react'
 import Link from 'next/link';
 import Logo from './Logo';
+import { useRouter } from 'next/router';
+import  {FacebookIcon, InstagramIcon, TiktokIcon, XIcon, YoutubeIcon  } from './Icons';
+import { motion } from 'framer-motion';
 
 const CustomLink =({href,title,className=''})=>{
+    const router =useRouter();
+    
     return(
-        <Link href={href} className={`${className} relative`}>
+        <Link href={href} className={`${className} relative group`}>
             {title}
-            <span className='inline-block h-[1px] w-full bg-dark absolute left-0  -bottom-0.5'>
-                &nbsp;
+            <span className={`inline-block h-[1px] bg-dark absolute left-0  -bottom-0.5
+            group-hover:w-full transition-[width] ease duration-300
+            ${router.asPath===href ? 'w-full' : 'w-0'}
+            `}>&nbsp;
             </span>
         </Link>
     )
@@ -23,12 +30,31 @@ const Navbar = () => {
         <CustomLink href="/projects" title="Projects" className='mx-4'/>
         <CustomLink href="/contact" title="Contact" className='ml-4'/>
     </nav>
-    <nav>
-        <Link href="/" tabIndex={"_blank"}>FaceBook |</Link>
-        <Link href="/" tabIndex={"_blank"}>YouTube |</Link>
-        <Link href="/" tabIndex={"_blank"}>Instagram |</Link>
-        <Link href="/" tabIndex={"_blank"}>TikTok |</Link>
-        <Link href="/" tabIndex={"_blank"}>X </Link>
+    <nav className='flex flex-wrap items-center justify-center'>
+        <motion.a href="https://x.com" tabIndex={"_blank"}
+        whileHover={{y:-2}}
+        whileTap={{scale:0.9}}
+        className="w-6 mr-4"><XIcon></XIcon></motion.a>
+        
+        <motion.a href="https://youtube.com" tabIndex={"_blank"}
+        whileHover={{y:-2}}
+        whileTap={{scale:0.9}}
+        className="w-6 mx-4"><YoutubeIcon/></motion.a>
+        
+        <motion.a href="https://instergram.com" tabIndex={"_blank"}
+        whileHover={{y:-2}}
+        whileTap={{scale:0.9}}
+        className="w-6 mx-4"> <InstagramIcon/></motion.a>
+        
+        <motion.a href="https://tiktok.com" tabIndex={"_blank"}
+        whileHover={{y:-2}}
+        whileTap={{scale:0.9}}
+        className="w-6 mx-4"> <TiktokIcon/></motion.a>
+        
+        <motion.a href="https://facebook.com" tabIndex={"_blank"}
+        whileHover={{y:-2}}
+        whileTap={{scale:0.9}}
+        className="w-6 ml-4"><FacebookIcon/> </motion.a>
     </nav>
     <div className='absolute left-[50%] top-2 translate-x-[-50%]'>
         <Logo/>
