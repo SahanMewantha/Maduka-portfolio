@@ -4,10 +4,7 @@
 
 This repository contains starter code for Portfolio website created using NextJs. <br />
 
-For Demo and Final Code checkout following link👇: <br />
 
-If you want to learn how to create it please follow below tutorial👇: <br />
-https://youtu.be/Yw7yWHigGKI <br />
 
 
 ### Images of The Portfolio Website:
