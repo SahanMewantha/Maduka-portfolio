@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 
+const { Cinzel } = require('next/font/google')
 const { fontFamily } = require('tailwindcss/defaultTheme')
 module.exports = {
   content: [
@@ -10,7 +11,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily:{
-        mont:['var(--font-mont)',...fontFamily.sans],
+        mont:['var(--font-mont)'],
+        cinzel:['var(--font-cinzel)'],
       },
       colors:{
         dark: "#1b1b1b",
