@@ -19,7 +19,12 @@ export default function Home() {
         <Layout className='pt-0 mt-4'>
           <div className='flex items-center justify-between w-full'>
             <div className='w-1/2'>
-              <Image src={profilePic} alt='CodeBucks' className='w-1/2 h-1/2'/>
+              <Image src={profilePic} alt='CodeBucks' className='w-1/2 h-1/2'
+              priority 
+              size="(max-width:768px)100vw,
+              (max-width:1200px)50vw,50vw"
+              />
+
             </div>
             <div className='flex flex-col items-center self-center w-1/2'>
               <AnimatedText text="Capture moments, create memories." className='!text-6xl !text-left'/>
