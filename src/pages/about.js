@@ -42,12 +42,12 @@ const about = () => {
             <title>About Page</title>
             <meta name='description' content=''/>
         </Head>
-        <main className='flex flex-col items-center justify-center w-full mt-4 '>
+        <main className='flex flex-col items-center justify-center w-full mt-4 dark:text-light'>
             <Layout className='pt-16'>
                 <AnimatedText text="Ceylon Enhance" className='mb-16 font-normal font-cinzel'/>
                 <div className='grid w-full grid-cols-8 gap-16'>
                     <div className='flex flex-col items-start justify-start col-span-3'>
-                        <h2 className='mb-4 text-lg font-bold uppercase text-dark/75'>Biography</h2>
+                        <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light'>Biography</h2>
                         <p className='font-medium'>
                             Hi, CodeBucks, a web developer and UI/UX designer with a passion for creating beautiful, functional, 
                             and user-centered digital experiences. With 4 years of experience in the field. I am always looking for 
@@ -64,8 +64,8 @@ const about = () => {
                         </p>
                     </div>
 
-                    <div className='relative col-span-3 p-8 border-2 border-solid border-dark bg-light rounded-2xl h-max'>
-                        <div className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark' />
+                    <div className='relative col-span-3 p-8 border-2 border-solid border-dark bg-light rounded-2xl h-max dark:bg-dark dark:border-light'>
+                        <div className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light' />
                         <Image src={profilePic} alt='ce' className='w-full h-auto rounded-2xl'/> 
                     </div>
                     
@@ -74,21 +74,21 @@ const about = () => {
                             <span className='inline-block font-bold text-7xl'>
                                <AnimatedNumbers value={50} />+
                             </span>
-                            <h2 className='text-xl font-medium capitalize text-dark/75'>satisfied clients</h2>
+                            <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light'>satisfied clients</h2>
                         </div>
 
                         <div className='flex flex-col items-end justify-center'>
                             <span className='inline-block font-bold text-7xl'>
                             <AnimatedNumbers value={60} />+
                             </span>
-                            <h2 className='text-xl font-medium capitalize text-dark/75'>project completed</h2>
+                            <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light'>project completed</h2>
                         </div>
 
                         <div className='flex flex-col items-end justify-center'>
                             <span className='inline-block font-bold text-7xl'>
                             <AnimatedNumbers value={4} />+
                             </span>
-                            <h2 className='text-xl font-medium capitalize text-dark/75'>years experience</h2>
+                            <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light'>years experience</h2>
                         </div>
                     </div>
                     
