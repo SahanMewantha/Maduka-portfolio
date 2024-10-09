@@ -1,0 +1,78 @@
+.portfolio_page_layout {
+  display: flex;
+  flex-direction: column; /* Align items in a column (rows) */
+  margin: 4%;
+}
+
+.item_row {
+  display: flex;
+  flex-direction: row;
+ 
+  padding: 20px;
+  margin: 10px 0;
+  width: 100%; /* Set to full width for responsiveness */
+  flex-wrap: wrap; /* Allow items to wrap onto the next line */
+}
+
+.albem_intro_image_left,
+.albem_intro_image_right {
+  height: auto;
+  border-radius: 2%;
+  width: 100%; /* Full width on small screens */
+  margin: 10px 0; /* Add vertical margin for spacing */
+}
+
+.albem_intro_dis_card_left,
+.albem_intro_dis_card_right {
+  padding-top: 5%;
+  width: 100%; /* Full width on small screens */
+  height: auto;
+  opacity: 0.9;
+  margin: 10px 0; /* Add vertical margin for spacing */
+}
+
+/* Media Queries for Larger Screens */
+@media (min-width: 600px) {
+  .albem_intro_image_left,
+  .albem_intro_image_right {
+      width: 45%; /* 45% width for larger screens */
+  }
+
+  .albem_intro_dis_card_left,
+  .albem_intro_dis_card_right {
+      width: 45%; /* 45% width for larger screens */
+      margin: 0 2.5%; /* Center items with margin */
+  }
+
+  .item_row {
+      justify-content: space-between; /* Space between items on larger screens */
+  }
+}
+
+@media (min-width: 900px) {
+  .albem_intro_image_left,
+  .albem_intro_image_right {
+      width: 56%; /* 55% width for even larger screens */
+  }
+
+  .albem_intro_dis_card_left {
+      width: 25%; /* 20% width for cards */
+      margin-left: 13%; /* Reset margins */
+  }
+
+  .albem_intro_dis_card_right {
+    width: 25%; /* 20% width for cards */
+    margin-right: 13%; /* Reset margins */
+  }
+}
+
+.albem_title_details {
+  text-align: center;
+  font-size: 15px;
+}
+
+.albem_title {
+  text-align: center;
+  font-size: 25px;
+  font-family: forum;
+}
