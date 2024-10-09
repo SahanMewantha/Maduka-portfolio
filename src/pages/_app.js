@@ -3,6 +3,7 @@ import Navbar from '@/components/Navbar'
 import '@/styles/globals.css'
 import { Montserrat,Cinzel } from 'next/font/google'
 import Head from 'next/head'
+import portfolio_page_style from '../styles/customCss.css'
 
 const montserrat = Montserrat({
   subsets:['latin'],
