@@ -12,7 +12,7 @@ export default function Portfolio() {
             </Head>
             <main className='portfolio_page_layout'>
                 {
-                    data.map(ele => <Albem albem_data={ele}></Albem>)
+                    data.map(ele => <Albem key={ele.id} albem_data={ele}></Albem>)
                 }
             </main>
         </>
