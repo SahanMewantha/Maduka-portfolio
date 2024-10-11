@@ -7,6 +7,7 @@ import Link from 'next/link'
 import { LinkArrow } from '@/components/Icons'
 import { motion } from 'framer-motion';
 import HireMe from '@/components/HireMe'
+import BannerImageSweeper from '../components/main_banner_component/banner_image_sweeper';
 
 export default function Home() {
   return (
@@ -17,14 +18,9 @@ export default function Home() {
       </Head>
       <main className='flex items-center w-full min-h-screen text-dark dark:text-light '>
         <Layout className='pt-0 mt-4 md:pt-16 sm:pt-8 sm:mt-32 xs:mt-16 md:mt-16'>
-          <div className='flex items-center justify-between w-full lg:flex-col'>
-            <div className='w-1/2 md:w-full'>
-              <Image src={profilePic} alt='CodeBucks' className='w-1/2 h-1/2 lg:hidden md:inline-block md:w-full'
-              priority 
-              size="(max-width:768px)100vw,
-              (max-width:1200px)50vw,50vw"
-              />
-
+          <div className='flex items-center justify-between w-full lg:flex-col gap-x-10 lg:gap-y-5 my-4 mx-4'>
+            <div className='banner_size'>
+              <BannerImageSweeper></BannerImageSweeper>
             </div>
             <div className='flex flex-col items-center self-center w-1/2 lg:w-full lg:text-center'>
               <AnimatedText text="Capture moments, create memories." className='!text-6xl !text-left
