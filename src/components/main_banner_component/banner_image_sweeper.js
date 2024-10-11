@@ -21,8 +21,7 @@ export default function BannerImageSweeper() {
         pagination={{
           clickable: true,
         }}
-        navigation={true}
-        modules={[Autoplay, Pagination, Navigation]}
+        modules={[Autoplay, Pagination]}
         
       >
         {
@@ -37,7 +36,7 @@ export default function BannerImageSweeper() {
               className='swiper_slide_img '
             />
           </SwiperSlide>)
-}
+        }
       </Swiper>
     </>
   );
