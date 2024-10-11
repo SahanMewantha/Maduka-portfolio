@@ -37,6 +37,18 @@ export default function BannerImageSweeper() {
             />
           </SwiperSlide>)
         }
+
+        <style jsx global>
+          {
+            `.swiper-pagination-bullet {
+                width:15px;
+                height:15px;
+            }
+            .swiper-pagination-bullet-active {
+              background-color: white; /* Active dot color */
+            }`
+          }
+        </style>
       </Swiper>
     </>
   );
