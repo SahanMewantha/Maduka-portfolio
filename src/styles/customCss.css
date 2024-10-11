@@ -76,3 +76,19 @@
   font-size: 25px;
   font-family: forum;
 }
+
+.banner_size {
+  width: 100%; /* Allow the banner to take full width of its container */
+  max-width: 800px; /* Maximum width to prevent it from getting too large on bigger screens */
+  height: auto; /* Maintain the aspect ratio */
+}
+
+/* Media query for smaller screens (e.g., mobile devices) */
+@media (max-width: 768px) {
+  .banner_size {
+    width: 100%;
+    max-width: 100%; /* On smaller screens, make the banner full-width */
+    height:auto; /* Aspect ratio maintained */
+  }
+}
+
