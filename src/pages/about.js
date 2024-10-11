@@ -3,7 +3,7 @@ import Layout from '@/components/Layout';
 import Head from 'next/head';
 import React, {useRef,useEffect} from 'react';
 import Image from 'next/image';
-import profilePic from '../../public/images/profile/developer-pic-2.jpg';
+import profilePic from '../../public/images/profile/image.png';
 import { useInView, useMotionValue, useSpring } from 'framer-motion';
 
 
@@ -47,21 +47,21 @@ const about = () => {
                 <AnimatedText text="Ceylon Enhance" className='mb-16 font-normal font-cinzel lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8'/>
                 <div className='grid w-full grid-cols-8 gap-16 sm:gap-8'>
                     <div className='flex flex-col items-start justify-start col-span-3 xl:col-span-4 md:order-2 md:col-span-8'>
-                        <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light'>Biography</h2>
-                        <p className='font-medium'>
-                            Hi, CodeBucks, a web developer and UI/UX designer with a passion for creating beautiful, functional, 
-                            and user-centered digital experiences. With 4 years of experience in the field. I am always looking for 
-                            new and innovative ways to bring my visions to life.
-                        </p>
-                        <p className='my-4 font-medium'>
-                            I believe that design is about more than just making things look pretty about solving problems and 
-                            creating intuitive, enjoyable experiences for users. 
-                        </p>
-                        <p className='font-medium'>
-                            Whether  working on a website, mobile app, or 
-                            other digital product, I bring my commitment to design excellence and user-centered thinking to 
-                            every project I work on. I look forward to the opportunity to bring my skills and passion to your next project.
-                        </p>
+                        <h2 className='mb-4 text-lg font-bold text-dark/75 dark:text-light'>Madhuka Vishwa, </h2>
+                        <center>
+                            <h2 className='mb-4 text-lg font-bold text-dark/75 dark:text-light'>
+                                Your visual storyteller!...
+                            </h2>
+                            <p className='my-4 font-medium'>
+                                I believe that every photo has a story to tell, and I take pride in creating images that reflect the unique personalities of my subjects. Whether it’s the laughter of a child, the warmth of a family embrace, or the beauty of a breathtaking landscape, my goal is to freeze those fleeting moments in time.
+                            </p>
+                            <p className='font-medium'>
+                                Join me on this visual journey as we create timeless art together.
+                            </p>
+                            <p className='font-medium'>
+                                Let’s capture your story!
+                            </p>
+                        </center>
                     </div>
 
                     <div className='relative col-span-3 p-8 border-2 border-solid border-dark bg-light rounded-2xl h-max dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span-8'>
