@@ -4,6 +4,9 @@ import '@/styles/globals.css'
 import { Montserrat,Cinzel } from 'next/font/google'
 import Head from 'next/head'
 import portfolio_page_style from '../styles/customCss.css'
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
 
 const montserrat = Montserrat({
   subsets:['latin'],
