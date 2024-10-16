@@ -19,7 +19,7 @@ export default function Home() {
       <main className='flex items-center w-full min-h-screen text-dark dark:text-light '>
         <Layout className='pt-0 mt-4 md:pt-16 sm:pt-8 sm:mt-32 xs:mt-16 md:mt-16 lg:mt-16'>
           <div className='flex items-center justify-between w-full mx-4 my-4 lg:flex-col gap-x-10 lg:gap-y-5'>
-            <div className='banner_size'>
+            <div className='w-1/2 h-1/2'>
               <BannerImageSweeper></BannerImageSweeper>
             </div>
             <div className='flex flex-col items-center self-center w-1/2 lg:w-full lg:text-center'>
