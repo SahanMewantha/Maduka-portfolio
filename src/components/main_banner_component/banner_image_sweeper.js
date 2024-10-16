@@ -21,8 +21,7 @@ export default function BannerImageSweeper() {
         pagination={{
           clickable: true,
         }}
-        navigation={true}
-        modules={[Autoplay, Pagination, Navigation]}
+        modules={[Autoplay, Pagination]}
         
       >
         {
@@ -37,7 +36,19 @@ export default function BannerImageSweeper() {
               className='swiper_slide_img '
             />
           </SwiperSlide>)
-}
+        }
+
+        <style jsx global>
+          {
+            `.swiper-pagination-bullet {
+                width:15px;
+                height:15px;
+            }
+            .swiper-pagination-bullet-active {
+              background-color: white; /* Active dot color */
+            }`
+          }
+        </style>
       </Swiper>
     </>
   );
