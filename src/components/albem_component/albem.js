@@ -24,7 +24,7 @@ export default function Albem({albem_data}) {
                         width={500} // Width of the image
                         height={300} // Height of the image
                         quality={75} // Optional: adjust image quality (default is 75)
-                        className='albem_intro_image_left'
+                        className='albem_intro_image_left '
                     />
                     <div className='albem_intro_dis_card_right'>
                         <span className='details'>

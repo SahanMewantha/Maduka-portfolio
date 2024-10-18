@@ -10,7 +10,8 @@ import 'swiper/css/navigation';
 
 const montserrat = Montserrat({
   subsets:['latin'],
-  variable:"--font-mont"
+  variable:"--font-mont",
+  
 })
 
 const cinzel=Cinzel({

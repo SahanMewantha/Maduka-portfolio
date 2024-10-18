@@ -8,7 +8,7 @@
   display: flex;
   flex-direction: row;
  
-  padding: 20px;
+  padding: 50px;
   margin: 10px 0;
   width: 100%; /* Set to full width for responsiveness */
   flex-wrap: wrap; /* Allow items to wrap onto the next line */
@@ -19,7 +19,7 @@
   height: auto;
   border-radius: 2%;
   width: 100%; /* Full width on small screens */
-  margin: 10px 0; /* Add vertical margin for spacing */
+  margin: 20px 0; /* Add vertical margin for spacing */
 }
 
 .albem_intro_dis_card_left,
@@ -29,6 +29,7 @@
   height: auto;
   opacity: 0.9;
   margin: 10px 0; /* Add vertical margin for spacing */
+  align-items: start;
 }
 
 /* Media Queries for Larger Screens */
@@ -58,6 +59,7 @@
   .albem_intro_dis_card_left {
       width: 25%; /* 20% width for cards */
       margin-left: 13%; /* Reset margins */
+
   }
 
   .albem_intro_dis_card_right {
