@@ -11,12 +11,14 @@ import 'swiper/css/navigation';
 const montserrat = Montserrat({
   subsets:['latin'],
   variable:"--font-mont",
+  display: "swap",
   
 })
 
 const cinzel=Cinzel({
   subsets:['latin'],
-  variable:'--font-cinzel'
+  variable:'--font-cinzel',
+  display: "swap",
 })
 
 export default function App({ Component, pageProps }) {
