@@ -1,7 +1,7 @@
 export const data = [
     {
         'id':1,
-        'title':'Wedding Photography',
+        'title':'Wedding Photography.....',
         'description':`Capturing the magic of your special day is my passion.
                                 From the quiet, intimate moments to the joyful celebrations,
                                 I strive to tell the unique story of your wedding through timeless,
@@ -9,7 +9,7 @@ export const data = [
                                 Each photograph is a reflection of the love,
                                 emotion, and unforgettable memories shared between you and your loved ones.
                                 Let me help you preserve these precious moments so you can relive them for years to come.`,
-        'albem_image':'/image_albems/wedding/testWedding.jpg',
+        'album_image':'/image_albems/engagement/testNature.jpg',
         'query':'wedding'
     },
     {
@@ -21,7 +21,7 @@ export const data = [
                         Whether in a cozy, intimate setting or a breathtaking outdoor location,
                         my goal is to preserve the excitement, joy, and romance of this special chapter in your lives.
                         Let's create timeless images that will remind you of the beautiful journey you're about to embark on—together.`,
-        'albem_image':'/image_albems/engagement/testNature.jpg',
+        'album_image':'/image_albems/engagement/testNature.jpg',
         'query':'engagement'
     },
     {
@@ -33,7 +33,7 @@ export const data = [
                             Whether you prefer a dreamy outdoor setting or a cozy indoor vibe, our goal is to freeze the beauty,
                             warmth, and excitement of your journey together.
                             Let us create stunning visuals that speak the language of your love.`,
-        'albem_image':'/image_albems/pre_wedding/testFamily.jpg',
+        'album_image':'/image_albems/pre_wedding/testFamily.jpg',
         'query':'pre-wedding'
     },
     {
@@ -42,7 +42,7 @@ export const data = [
         'description':`Capture the magic of your moments with our After-Session Photography experience!
                         Whether it's a celebration, a milestone, or simply a day spent with loved ones,
                         our talented photographers are dedicated to immortalizing your special occasions in stunning detail.`,
-        'albem_image':'/image_albems/after_session/testFamily.jpg',
+        'album_image':'/image_albems/pre_wedding/testFamily.jpg',
         'query':'after-Session'
     },
     {
@@ -56,7 +56,7 @@ export const data = [
                         From delicate close-ups to enchanting full-length shots, 
                         we focus on the details that make you feel like the radiant centerpiece of your celebration. 
                         Let us help you create timeless memories that you'll cherish for a lifetime.`,
-        'albem_image':'/image_albems/bride/testFamily.jpg',
+        'album_image':'/image_albems/engagement/testNature.jpg',
         'query':'bridal-portraits'
     },
     {
@@ -67,7 +67,7 @@ export const data = [
                         there's something for everyone to enjoy. Whether you're looking to immerse yourself in local traditions, 
                         discover new talents, or simply have a great time with family and friends, 
                         our events are designed to inspire and entertain.`,
-        'albem_image':'/image_albems/events/testFamily.jpg',
+        'album_image':'/image_albems/pre_wedding/testFamily.jpg',
         'query':'events'
     }
 ]

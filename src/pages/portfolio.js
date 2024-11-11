@@ -1,6 +1,7 @@
 import Head from 'next/head';
-import Albem from '../components/albem_component/albem';
-import { data } from '../components/albem_component/albem_data';
+import Album from '../components/albem_component/Album';
+import { data } from '../components/albem_component/album_data';
+import Layout from '@/components/Layout';
 
 export default function Portfolio() {
 
@@ -12,7 +13,7 @@ export default function Portfolio() {
             </Head>
             <main className='portfolio_page_layout'>
                 {
-                    data.map(ele => <Albem key={ele.id} albem_data={ele}></Albem>)
+                    data.map(ele => <Album key={ele.id} album_data={ele}></Album>)
                 }
             </main>
         </>
