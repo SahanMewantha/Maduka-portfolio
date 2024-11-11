@@ -1,7 +1,6 @@
 import Head from 'next/head';
 import Album from '../components/albem_component/Album';
-import { data } from '../components/albem_component/album_data';
-import Layout from '@/components/Layout';
+import { data } from '../components/albem_component/data/album_data';
 
 export default function Portfolio() {
 

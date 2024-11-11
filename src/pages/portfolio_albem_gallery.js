@@ -2,24 +2,22 @@ import Head from 'next/head';
 import { useRouter } from 'next/router';
 import HireMe from '../components/HireMe';
 import Layout from '@/components/Layout';
+import { Wedding } from '@/components/albem_component/Wedding';
 
-export default function PortfolioAlbemGallery() {
+export default function PortfolioAlbumGallery() {
 
     const router = useRouter();
-    const { albemType } = router.query;
+    const { albumType } = router.query;
     return (
         <>
             <Head>
-                <title>Albem Gallery/{albemType}</title>
+                <title>Album Gallery/{albumType}</title>
                 <meta name='description' content=''/>
             </Head>
             <main className='flex items-center w-full min-h-screen text-dark dark:text-light '>
-                 <Layout>
-                    <center>
-                        <h1>content</h1>
-                    </center>
-                 </Layout>
+                <Wedding/>
                 <HireMe/>
+            
             </main>
         </>
     )

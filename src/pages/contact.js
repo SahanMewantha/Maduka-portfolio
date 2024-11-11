@@ -31,7 +31,7 @@ const contact = () => {
             <div class="grid grid-cols-3 mt-10 sm:grid-cols-1"> 
               <div class='xs:flex sm:flex h-52 text-center  text-md text-dark rounded-xl w-72 opacity-75  bg-zinc-400 dark:text-light box-shadow shadow-2xl  hover:shadow-green-600 sm:h-28 sm:w-full sm:mb-5 md:mr-3 md:h-60 md:w-48'>
               
-                  <WhatsAppIcon className={' h-1/4 w-1/4 mx-28 mt-6 sm:h-1/2 sm:w-1/2 sm:ml-1 xs:h-1/2 xs:w-36 xs:ml-4' }/>
+                  <WhatsAppIcon className={' h-1/5 w-1/5 mx-28 mt-6 sm:h-1/2 sm:w-1/2 sm:ml-1 xs:h-1/2 xs:w-36 xs:ml-4' }/>
                   <div className='sm:mr-36 xs:text-sm xs:mr-5'>
                     <h2 class='mt-5 text-2xl text-bold sm:mb-0 sm:truncate  '>WhatsApp Us !</h2>
                     <h1 class='mt-5 mb-12  sm:mt-0'>077-1234567</h1>
@@ -41,7 +41,7 @@ const contact = () => {
 
               <div class='xs:flex sm:flex h-52 text-center text-md text-dark rounded-xl w-72 opacity-75 bg-zinc-400 dark:text-light box-shadow shadow-2xl hover:shadow-orange-600 sm:h-28 sm:w-full sm:mb-5 md:mr-3 md:h-60 md:w-48' >
                 
-                  <TelephoneIcon className={'h-1/4 w-1/4 mx-28 mt-6 sm:h-1/2 sm:w-1/2 sm:ml-1 xs:h-1/2 xs:w-1/2 xs:ml-1'}/>
+                  <TelephoneIcon className={'h-1/5 w-1/5 mx-28 mt-6 sm:h-1/2 sm:w-1/2 sm:ml-1 xs:h-1/2 xs:w-1/2 xs:ml-1'}/>
             
                   <div className='sm:mr-40 xs:text-sm xs:mr-10'>
                     <h2 class='mt-5 text-2xl text-bold sm:mb-0 sm:truncate'>Contact Us</h2>
@@ -51,7 +51,7 @@ const contact = () => {
               </div>
 
               <div class='xs:flex sm:flex h-52 text-center bg-zinc-400 text-md text-dark rounded-xl w-72 opacity-75 dark:text-light box-shadow shadow-2xl hover:shadow-red-600 sm:h-28 sm:w-full sm:mb-5 md:h-60 md:w-48'>
-              <MailIcon className={'h-1/4 w-1/4 mx-28 mt-6 sm:h-1/2 sm:w-1/2 sm:ml-0 xs:h-1/2 xs:w-1/2 xs:ml-1'}/>
+              <MailIcon className={'h-1/5 w-1/5 mx-28 mt-6 sm:h-1/2 sm:w-1/2 sm:ml-0 xs:h-1/2 xs:w-1/2 xs:ml-1'}/>
                 <div className='sm:mr-40 xs:text-sm xs:mr-10'>
                   <h2 className='mt-5 text-2xl text-bold'>Mail Us</h2>
                   <h1 className='mt-5 mb-12'>ABCex@gmail.com</h1>
