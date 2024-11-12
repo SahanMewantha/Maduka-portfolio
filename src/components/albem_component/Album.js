@@ -17,7 +17,7 @@ const Album = ({album_data}) => {
     return (
         <>
             
-            <div class="grid grid-cols-2 gap-4 my-24  w-full border border-solid border-dark rounded-3xl justify-between items-center shadow-2xl bg-light dark:bg-dark p-12 relative dark:border-light">
+            <div className="grid grid-cols-2 gap-4 my-24  w-full border border-solid border-dark rounded-3xl justify-between items-center shadow-2xl bg-light dark:bg-dark p-12 relative dark:border-light">
                 <div className='absolute top-0 -right-3 -z-20 w-[102%] h-[100%]: rounded-[2.5rem] bg-dark dark:bg-light' />
             
                     <div className='mb-5'>
