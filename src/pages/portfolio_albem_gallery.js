@@ -12,7 +12,7 @@ import { brideData } from '@/components/albem_component/data/brideData';
 import { engagementData } from '@/components/albem_component/data/engagementData';
 import { eventData } from '@/components/albem_component/data/eventData';
 import { preWeddingData } from '@/components/albem_component/data/preWeddingData';
-import { weddingData } from '@/components/albem_component/data/WeddingData';
+import { weddingData } from '@/components/albem_component/data/weddingData';
 
 export default function PortfolioAlbumGallery() {
 
