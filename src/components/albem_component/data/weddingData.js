@@ -13,7 +13,7 @@ export const weddingData = [
     },
     {
         'id':4,
-        'url':'/image_albems/wedding/4.jpg',
+        'url':'/image_albems/wedding/testNature.jpg',
     }
     
 ]
