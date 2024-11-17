@@ -2,6 +2,8 @@ import React from 'react'
 import Link from 'next/link';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
+import { motion } from "framer-motion";
+
 
 const Album = ({album_data}) => {
 
@@ -17,19 +19,21 @@ const Album = ({album_data}) => {
     return (
         <>
             
-            <div className="grid grid-cols-2 gap-4 my-24  w-full border border-solid border-dark rounded-3xl justify-between items-center shadow-2xl bg-light dark:bg-dark p-12 relative dark:border-light">
-                <div className='absolute top-0 -right-3 -z-20 w-[102%] h-[100%]: rounded-[2.5rem] bg-dark dark:bg-light' />
+            <div class="grid grid-cols-2 gap-4 my-24  w-full border border-solid border-dark rounded-3xl justify-between items-center shadow-2xl bg-light dark:bg-dark p-12 relative">
             
-                    <div className='mb-5'>
+                    <motion.div className='mb-5'
+                    whileHover={{ scale: 1.2 }} 
+                    whileTap={{ scale: 0.8 }}>
+                        
                         <Link href={{pathname:'/portfolio_albem_gallery', query:{'albumType':album_data.query}}}>
-                            <Image src={album_data.album_image} className='overflow-hidden bg-indigo-500 rounded-lg shadow-lg opacity-75 shadow-indigo-500/50'
+                            <Image src={album_data.album_image} className='overflow-hidden rounded-lg'
                             alt="Description of the image"
                             width={500} // Width of the image
                             height={300}/>
                             
                         </Link>
                         
-                    </div>
+                    </motion.div>
 
                     <div className='mb-5'>
                         <div className='album_intro_dis_card_right'>
@@ -45,12 +49,11 @@ const Album = ({album_data}) => {
                             <br></br>
                             <center>
                                 <CustomLink href={{pathname:'/portfolio_albem_gallery', query:{'albumType':album_data.query}}} title={album_data.title} className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark
-                    border-2 border-solid border-transparent hover:border-dark dark:text-dark dark:bg-light hover:dark:bg-dark hover:dark:text-light hover:dark:border-light md:p-2 md:px-4 md:text-base"/>                                   
+                border-2 border-solid border-transparent hover:border-dark dark:text-dark dark:bg-light hover:dark:bg-dark hover:dark:text-light hover:dark:border-light md:p-2 md:px-4 md:text-base"/>                                   
                             </center>
                             </span>
                         </div>
                     </div>  
-                   
             </div>
         
                 
@@ -62,7 +65,7 @@ const Album = ({album_data}) => {
     return(
         <>
 
-            <div class="grid grid-cols-2 gap-4 my-10  w-full border border-solid border-dark rounded-3xl justify-between items-center shadow-2xl bg-light dark:bg-dark p-12 relative dark:border-light">
+            <div class="grid grid-cols-2 gap-4 my-10  w-full border border-solid border-dark rounded-3xl justify-between items-center shadow-2xl bg-light dark:bg-dark p-12 relative">
                 <div className='ml-5 mr-6'>
                 <div className='album_intro_dis_card_left'>
                         <span className='details'>
@@ -83,9 +86,10 @@ const Album = ({album_data}) => {
                     </div>
                 </div>
 
-                <div className='ml-10'>
+                <motion.div className='ml-10'
+                whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }}>
                 <Link href={{pathname:'/portfolio_albem_gallery', query:{'albumType':album_data.query}}}>
-                <Image className='overflow-hidden bg-indigo-500 rounded-lg shadow-lg opacity-75 shadow-indigo-500/50'
+                <Image
                         src={album_data.album_image} // Path to your image
                         alt="Description of the image"
                         width={500} // Width of the image
@@ -94,7 +98,7 @@ const Album = ({album_data}) => {
                 </Link>
                 
                     
-                </div>
+                </motion.div>
                 
             </div>
         </>
