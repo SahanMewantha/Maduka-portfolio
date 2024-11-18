@@ -5,6 +5,7 @@ import React, {useRef,useEffect} from 'react';
 import Image from 'next/image';
 import profilePic from '../../public/images/profile/image.png';
 import { useInView, useMotionValue, useSpring } from 'framer-motion';
+import { TransitionEffect } from '@/components/TransitionEffect';
 
 
 
@@ -42,6 +43,7 @@ const about = () => {
             <title>About Page</title>
             <meta name='description' content=''/>
         </Head>
+        <TransitionEffect/>
         <main className='flex flex-col items-center justify-center w-full mt-4 dark:text-light'>
             <Layout className='pt-16 sm:pt-8 sm:mt-32 xs:mt-16 md:mt-16 lg:mt-16'>
                 <AnimatedText text="Ceylon Enhance" className='mb-16 font-normal font-cinzel lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8'/>

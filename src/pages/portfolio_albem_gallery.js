@@ -13,8 +13,17 @@ import { engagementData } from '@/components/albem_component/data/engagementData
 import { eventData } from '@/components/albem_component/data/eventData';
 import { preWeddingData } from '@/components/albem_component/data/preWeddingData';
 import { weddingData } from '@/components/albem_component/data/weddingData';
+import { motion, useScroll, useSpring } from "framer-motion";
+import { TransitionEffect } from '@/components/TransitionEffect';
 
 export default function PortfolioAlbumGallery() {
+
+    const { scrollYProgress } = useScroll();
+    const scaleX = useSpring(scrollYProgress, {
+      stiffness: 100,
+      damping: 30,
+      restDelta: 0.001
+    });
 
     const router = useRouter();
 
@@ -54,6 +63,7 @@ export default function PortfolioAlbumGallery() {
 
     return (
         <>
+            
             {
                 router.query.albumType ? (
                     
@@ -62,10 +72,11 @@ export default function PortfolioAlbumGallery() {
                             <title>Album Gallery/{router.query.albumType}</title>
                             <meta name='description' content=''/>
                         </Head>
+                        <TransitionEffect/>
                         <main className='flex items-center w-full min-h-screen text-dark dark:text-light '>
 
-
                             <Wedding sendSelectedAlbemData = {selectedAlbem}/>
+                            <motion.div className="absolute progress-bar" style={{ scaleX }} />
                         <HireMe/>
                         
                         </main>
