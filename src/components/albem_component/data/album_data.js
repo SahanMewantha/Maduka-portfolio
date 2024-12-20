@@ -21,7 +21,7 @@ export const data = [
                         Whether in a cozy, intimate setting or a breathtaking outdoor location,
                         my goal is to preserve the excitement, joy, and romance of this special chapter in your lives.
                         Let's create timeless images that will remind you of the beautiful journey you're about to embark on—together.`,
-        'album_image':'/image_albems/engagement/testNature.jpg',
+        'album_image':'/image_albems/events/cover.jpg',
         'query':'Event'
     },
     {

@@ -10,7 +10,7 @@ const Footer = () => {
             <span>{new Date().getFullYear()}&copy;All Rights Reserved.</span>
             <div className="flex items-center lg:py-2">
             Capture With<span className="px-1 text-2xl">📸</span>
-            <Link href="/">Ceylon Enhance</Link>
+            <Link href="/">PICBRAINY</Link>
             </div>
             
             <Link href="/">Say Hello</Link>

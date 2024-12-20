@@ -3,6 +3,59 @@ export const eventData = [
         'id':1,
         'url':'/image_albems/events/1.jpg',
     },
+    {
+        'id':2,
+        'url':'/image_albems/events/2.jpg',
+    },
+    {
+        'id':3,
+        'url':'/image_albems/events/3.jpg',
+    },
+    {
+        'id':4,
+        'url':'/image_albems/events/4.jpg',
+    },
+    {
+        'id':5,
+        'url':'/image_albems/events/5.jpg',
+    },
+    {
+        'id':6,
+        'url':'/image_albems/events/6.jpg',
+    },
+    {
+        'id':7,
+        'url':'/image_albems/events/7.jpg',
+    },
+    {
+        'id':8,
+        'url':'/image_albems/events/8.jpg',
+    },
+    {
+        'id':9,
+        'url':'/image_albems/events/9.jpg',
+    },
+    {
+        'id':10,
+        'url':'/image_albems/events/10.jpg',
+    },
+    {
+        'id':11,
+        'url':'/image_albems/events/11.jpg',
+    },
+    {
+        'id':12,
+        'url':'/image_albems/events/12.jpg',
+    },
+    {
+        'id':13,
+        'url':'/image_albems/events/13.jpg',
+    },
+    {
+        'id':14,
+        'url':'/image_albems/events/14.jpg',
+    },
+    
    
     
 ]

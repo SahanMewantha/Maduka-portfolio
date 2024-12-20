@@ -46,7 +46,7 @@ const about = () => {
         <TransitionEffect/>
         <main className='flex flex-col items-center justify-center w-full mt-4 dark:text-light'>
             <Layout className='pt-16 sm:pt-8 sm:mt-32 xs:mt-16 md:mt-16 lg:mt-16'>
-                <AnimatedText text="Ceylon Enhance" className='mb-16 font-normal font-cinzel lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8'/>
+                <AnimatedText text="PICBRAINY" className='mb-16 font-normal font-cinzel lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8'/>
                 <div className='grid w-full grid-cols-8 gap-16 sm:gap-8'>
                     <div className='flex flex-col items-start justify-start col-span-3 xl:col-span-4 md:order-2 md:col-span-8'>
                         <h2 className='mb-4 text-lg font-bold text-dark/75 dark:text-light'>Madhuka Vishwa, </h2>
