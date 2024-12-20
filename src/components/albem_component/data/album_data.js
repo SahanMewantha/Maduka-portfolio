@@ -9,7 +9,7 @@ export const data = [
                                 Each photograph is a reflection of the love,
                                 emotion, and unforgettable memories shared between you and your loved ones.
                                 Let me help you preserve these precious moments so you can relive them for years to come.`,
-        'album_image':'/image_albems/engagement/testNature.jpg',
+        'album_image':'/image_albems/wedding/cover.jpg',
         'query':'wedding'
     },
     {

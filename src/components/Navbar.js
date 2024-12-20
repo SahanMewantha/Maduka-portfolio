@@ -5,6 +5,7 @@ import { useRouter } from "next/router";
 import {
   FacebookIcon,
   InstagramIcon,
+  LinkedInIcon,
   MoonIcon,
   SunIcon,
   TiktokIcon,
@@ -108,7 +109,7 @@ const Navbar = () => {
             whileTap={{ scale: 0.9 }}
             className="w-6 mr-4"
           >
-            <XIcon></XIcon>
+            <LinkedInIcon/>
           </motion.a>
 
           <motion.a
@@ -183,7 +184,7 @@ const Navbar = () => {
         <motion.a href="https://x.com" tabIndex={"_blank"}
         whileHover={{y:-2}}
         whileTap={{scale:0.9}}
-        className="w-6 mr-4 sm:mx-2"><XIcon></XIcon></motion.a>
+        className="w-6 mr-4 sm:mx-2"><LinkedInIcon/></motion.a>
         
         <motion.a href="https://youtube.com" tabIndex={"_blank"}
         whileHover={{y:-2}}
