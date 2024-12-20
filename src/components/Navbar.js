@@ -146,7 +146,7 @@ const Navbar = () => {
         whileTap={{scale:0.9}}
         className="w-6 mx-4 sm:mx-2"> <TiktokIcon/></motion.a>
         
-        <motion.a href="https://facebook.com" tabIndex={"_blank"}
+        <motion.a href="https://www.facebook.com/MadhukaZClick?mibextid=kFxxJD" tabIndex={"_blank"}
         whileHover={{y:-2}}
         whileTap={{scale:0.9}}
         className="w-6 ml-4 sm:mx-2"><FacebookIcon/> </motion.a>
