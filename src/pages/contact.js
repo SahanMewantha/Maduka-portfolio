@@ -40,7 +40,7 @@ const contact = () => {
           <ul className="space-y-6">
             {/* Email */}
             <li className="flex items-center space-x-4">
-              <MailIcon className="w-10 h-10 " />
+              
               <div>
                 <h3 className="text-lg font-semibold">Stay in the know</h3>
                 <p className="text-gray-500">cylonenhance@gmail.com</p>
@@ -49,7 +49,7 @@ const contact = () => {
 
             {/* Phone */}
             <li className="flex items-center space-x-4">
-              <TelephoneIcon className="w-10 h-10 " />
+              
               <div>
                 <h3 className="text-lg font-semibold">Stay in the know</h3>
                 <p className="text-gray-500">+94 077 123 4561</p>
@@ -58,7 +58,7 @@ const contact = () => {
 
             {/* WhatsApp */}
             <li className="flex items-center space-x-4">
-              <WhatsAppIcon className="w-10 h-10 "/>
+              
               <div>
                 <h3 className="text-lg font-semibold">Chat with us</h3>
                 <p className="text-gray-500">077 123 4561</p>
