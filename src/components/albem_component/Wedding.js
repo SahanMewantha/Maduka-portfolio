@@ -38,7 +38,7 @@ const Wedding = ({ sendSelectedAlbemData }) => {
                     alt={`Gallery image ${index + 1}`}
                     width={250}
                     height={150}
-                    className="object-cover w-full h-40 transition-transform duration-300 group-hover:scale-105"
+                    className="object-cover w-full transition-transform duration-300 h-52 group-hover:scale-105"
                     priority
                   />
                   <div className="absolute inset-0 transition-opacity duration-300 bg-black opacity-0 group-hover:opacity-25"></div>

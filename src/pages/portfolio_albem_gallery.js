@@ -11,7 +11,7 @@ import { afterSessionData } from '@/components/albem_component/data/afterSession
 import { brideData } from '@/components/albem_component/data/brideData';
 import { engagementData } from '@/components/albem_component/data/engagementData';
 import { eventData } from '@/components/albem_component/data/eventData';
-import { preWeddingData } from '@/components/albem_component/data/preWeddingData';
+import { preWeddingData } from '@/components/albem_component/data/graduationData';
 import { weddingData } from '@/components/albem_component/data/weddingData';
 import { motion, useScroll, useSpring } from "framer-motion";
 import { TransitionEffect } from '@/components/TransitionEffect';
@@ -38,21 +38,13 @@ export default function PortfolioAlbumGallery() {
                 case "wedding":
                     setSelectedAlbem(weddingData);
                     break;
-                case "engagement":
-                    setSelectedAlbem(engagementData);
-                    break;
-                case "pre-wedding":
-                    setSelectedAlbem(preWeddingData);
-                    break;
-                case "after-Session":
-                    setSelectedAlbem(afterSessionData);
-                    break;
-                case "bridal-portraits":
-                    setSelectedAlbem(brideData);
-                    break;
-                default:
+                case "Event":
                     setSelectedAlbem(eventData);
                     break;
+                case "Graduation":
+                    setSelectedAlbem(preWeddingData);
+                    break;
+                
             }
         }
       }, [router.isReady, router.query.albumType]);

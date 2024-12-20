@@ -22,7 +22,7 @@ export const data = [
                         my goal is to preserve the excitement, joy, and romance of this special chapter in your lives.
                         Let's create timeless images that will remind you of the beautiful journey you're about to embark on—together.`,
         'album_image':'/image_albems/engagement/testNature.jpg',
-        'query':'engagement'
+        'query':'Event'
     },
     {
         'id':3,
@@ -33,7 +33,7 @@ export const data = [
                             Whether you prefer a dreamy outdoor setting or a cozy indoor vibe, our goal is to freeze the beauty,
                             warmth, and excitement of your journey together.
                             Let us create stunning visuals that speak the language of your love.`,
-        'album_image':'/image_albems/pre_wedding/testFamily.jpg',
-        'query':'pre-wedding'
+        'album_image':'/image_albems/graduation/cover.jpg',
+        'query':'Graduation'
     },
 ]
