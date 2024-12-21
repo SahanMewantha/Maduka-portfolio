@@ -3,7 +3,7 @@ import Layout from '@/components/Layout';
 import Head from 'next/head';
 import React, {useRef,useEffect} from 'react';
 import Image from 'next/image';
-import profilePic from '../../public/images/profile/image.png';
+import profilePic from '../../public/images/profile/picb.jpg';
 import { useInView, useMotionValue, useSpring } from 'framer-motion';
 import { TransitionEffect } from '@/components/TransitionEffect';
 
